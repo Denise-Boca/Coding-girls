@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(8, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0,0,0,1);
+}
+.container .esquerda{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+
+}
+.perfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.contactoinfo{
+    padding-top: 40px;
+}
+.contactoinfo ul{
+    position: relative;
+}
+.contactoinfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.educacaoinfo li{
+    margin-bottom: 15px;
+
+}
+.educacaoinfo h5{
+    color:#03a9f4;
+    font-weight: 500;
+
+}
+.educacaoinfo h4{
+    color: #fff;
+    font-weight: 300;
+
+}
+.linguageminfo .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: black;
+    display: block;
+    margin-top: 5px;
+
+}
+.linguageminfo .text{
+    line-height: 200%;
+}
+/*Esse css nao aplicou na pagina */
+.linguageminfo .percent div{
+   position:absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   background: blue;
+}
+.container .direita{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.sobre{
+    margin-bottom: 50px;
+}
+.titulo{
+    color:black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+.habilidade .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+}
+.habilidade .box h4{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+    line-height: 300%;
+}
+.habilidade .box .percentagem{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+/*Esse css nao aplicou na pagina */
+.percentagem div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: blue;
+}
+.Aptidoes ul li{
+  line-height: 10px;
+  position: relative;
+  display: flex;
+  padding-bottom: 20px;
+ font-size: 16px;
+}
